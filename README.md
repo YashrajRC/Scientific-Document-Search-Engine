@@ -1,4 +1,5 @@
-# Search Retrieval Experiment
+# Scientific Document Search Engine
+
 
 This project compares three ways of retrieving relevant documents from an external labelled search benchmark:
 
@@ -269,9 +270,3 @@ Inspect failures:
 ```bash
 python -m src.analysis.inspect_failures --dataset scifact --top-k 10
 ```
-
-Generated reports:
-
-- [Summary](runs/scifact/summary.md)
-- [Failure report](runs/scifact/failure_report.md)
-- [Analysis notes](runs/scifact/analysis.md)
